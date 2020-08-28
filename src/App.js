@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Title from "./components/Title";
+import Pokemon from "./components/Pokemon";
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
           Welcome to Codaisseur
         </a>
       </header>
+      <main>
+        <Title content="Some example title" />
+        <Pokemon />
+      </main>
     </div>
   );
 }
